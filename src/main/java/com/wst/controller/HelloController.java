@@ -19,7 +19,7 @@ public class HelloController {
     }
 
     @RequestMapping("/getResource")
-    public Resource getResource() {
+    public Resource getResource(){
         Resource bean = new Resource();
         BeanUtils.copyProperties(resource,bean);
         return bean;
