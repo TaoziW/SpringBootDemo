@@ -24,4 +24,5 @@ public class HelloController {
         BeanUtils.copyProperties(resource,bean);
         return bean;
     }
+
 }
